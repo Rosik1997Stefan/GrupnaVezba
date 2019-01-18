@@ -5,8 +5,8 @@
 	position: relative;
 }
 .size{
-	font-size: 270px;
-	position: fixed;
+	font-size: 23rem;
+	position: absolute;
 	top: 130px;
 	opacity: 0.2;
 }
@@ -44,8 +44,19 @@ body {
 .bg-white {
     background-color: white;
 }
+.bg-gray {
+    background-color:lightgray;
+}
 a {
     color: black;
+}
+hr {
+    border: 1px solid red;
+	margin-bottom: 5%;
+	width: 30%;
+}
+i {
+    color: red;
 }
 .navbar-nav li >a:hover {
     color: red;
@@ -69,4 +80,16 @@ a {
 .paddtb{
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+}
+.pad-top-bottom {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.card {
+    padding: 5%;
+    border-radius: 10px;
+}
+.card:hover {
+	background-image: linear-gradient(to right, blue,lightblue,violet,purple);
+	color:white;
 }
