@@ -5,7 +5,7 @@
 	position: relative;
 }
 .size{
-	font-size: 17vw;
+	font-size: 16vw;
 	position: absolute;
 	top: 130px;
 	opacity: 0.2;
@@ -92,4 +92,23 @@ i {
 .card:hover {
 	background-image: linear-gradient(to right, blue,lightblue,violet,purple);
 	color:white;
+}
+.parentt{
+	background-image: url('imgs/portfolio-3.jpg');
+	background-size: cover;
+	height: 30vh;
+	background-position: center;
+	position: relative;
+}
+.textdiv{
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	z-index: -1;
+}
+.parentt:hover{
+	opacity: 0.2;
+}
+.padnone{
+	padding: 0;
 }
