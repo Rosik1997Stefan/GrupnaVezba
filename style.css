@@ -1,3 +1,4 @@
+
 .bgfirst{
 	background-image: linear-gradient(to right, blue,lightblue,violet,purple);
 	height: 90vh;
@@ -35,4 +36,30 @@
 .padtopbot{
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+body {
+    margin: 0;
+    padding-top:  50px;
+}
+.bg-white {
+    background-color: white;
+}
+a {
+    color: black;
+}
+.navbar-nav li >a:hover {
+    color: red;
+    background-color: white;
+}
+.navbar-header > a:hover {
+    color: black;
+}
+.navbar-header > a {
+    color: black;
+    font-size: 30px;
+}
+.navbar-nav li > button {
+    padding: 5px 30px;
+    margin-top: 1rem;
+    border-radius: 25px;
 }
